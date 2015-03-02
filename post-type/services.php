@@ -52,6 +52,7 @@ function service_manager_meta_options() {
       <?php
       $temp = 'photoslide';
       $link = array();
+      
       $link = split(" ", $custom['photoslide'][0]);
       $i = 0;
 

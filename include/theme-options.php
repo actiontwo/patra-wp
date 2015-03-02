@@ -100,5 +100,5 @@ function director_settings_page() {
           </p>
       </form>
   </div>
-<?php } ?>
-
+<?php
+}

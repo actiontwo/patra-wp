@@ -2,12 +2,45 @@
 Theme Name: Patra Theme
 Version:0.1
 */
-/* http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-/* line 6, ../../jade/scss/_reset.scss */
+
 
 .bx-controls-direction {
     display: none;
+}
+img.ajax-loader {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    bottom: -20px;
+    left: 0;
+}
+
+.box-enquire .wpcf7-response-output{
+    position: fixed;
+    z-index: 30;
+    top: 85px!important;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    left: 0;
+    top: 117px;
+    margin: 0;
+    border: 0;
+    height: 100%;
+    padding: 0;
+}
+.box-enquire div.wpcf7-mail-sent-ok{
+    border: 0;
+}
+pre {
+    background: transparent;
+    border: 0;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+}
+@media screen and(max-width:1190px){
+    .box-enquire .wpcf7-response-output{
+        top: 54px!important;
+    }
+
 }
