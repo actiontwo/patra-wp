@@ -134,8 +134,9 @@
                   <div class="panel panel-default">
                       <div class="panel-heading">
                           <h4 class="panel-title sub-title">
-                              <a data-toggle="collapse" data-parent="#accordion" href="#collapse_<?= $slug ?>">
-                                  <?= $menu->title ?> 
+                              <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse_<?= $slug ?>">
+                                  <?= $menu->title ?>
+                                  <div class="traingle"></div>
                               </a>
                           </h4>
                       </div>
