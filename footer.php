@@ -13,9 +13,9 @@
             </li>
             <li class="col-md-3">
                 <?php if (get_option('designBy')): ?>
-                <a href="www.openseed.com.au"><span><?= get_option('designBy') ?></span></a>
+                <a href="http://www.openseed.com.au" target="_blank"><span><?= get_option('designBy') ?></span></a>
                 <?php else : ?>
-                 <a href="www.openseed.com.au"><span>Designed by Openseed</span></a>
+                 <a href="http://www.openseed.com.au" target="_blank"><span>Designed by Openseed</span></a>
                 <?php endif ?>
 
             </li>
