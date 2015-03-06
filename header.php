@@ -29,7 +29,7 @@
                             <?php if (get_option('logo')): ?>
                               <img src="<?= get_home_url() . "/wp-content/" . get_option('logo') ?>">
 <?php else : ?>
-                              <img src="<?= IMG ?>logo.png">
+                              <img src="<?= IMG ?>logo.png" width="180" height="48">
                         <?php endif ?>
                             <div class="logo-traingle"></div>
 
@@ -83,7 +83,7 @@
                     wp_reset_query();
                     ?>
 
-                    <div class="bg-contac-form"><img src="<?= IMG ?>bottom-bg-form.png"></div>
+                    <div class="bg-contac-form"><img src="<?= IMG ?>bottom-bg-form.png" height="125" width="1220"></div>
                 </div>
                 <div id="header-mobile" class="header">
                     <?php
@@ -98,7 +98,7 @@
                     );
                     wp_nav_menu($topMenuMobile);
                     ?>
-                    <div id="main-menu"><a href="<?= home_url() ?>" class="logo"><img src="<?= IMG ?>logo.png">
+                    <div id="main-menu"><a href="<?= home_url() ?>" class="logo"><img src="<?= IMG ?>logo.png" width="180" height="48">
                             <div class="logo-traingle"></div></a>
                         <div class="contact-mobile">
                             <ul>
